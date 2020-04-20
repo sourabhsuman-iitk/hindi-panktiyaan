@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Signup.css">
+    <title>Signup Page</title>
+</head>
+<body>
+    <header>
+        <div class="header-class">
+            <div class="logo-container">
+                <!-- <img src="images/logo.png" alt="logo" height="70px">
+                <img class="logo" src="images/Path 1.png" alt="logo" height="28px"> -->
+                <p>Panktiyaan</p>
+    
+            </div>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <nav>
+                <ul class="nav-links">
+                    <li><a class="nav-link" href="#">Login</a></li>
+                    <li><a class="nav-link signup"  href="#">Signup</a></li>
+                </ul>
+            </nav>
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span> 
+            </label>
+        </div>
+      
+    </header>
+
+    <div class="container">
+        <div class="neumorphism">
+            <div class="signup-heading">
+                <p>Signup</p>
+            </div>
+            <div class="signup-entry">
+                <form>
+                    <ul>
+                        <li><input class="username" name="username" type="text" placeholder="Username" maxlength="20" required></li>
+                        <li><input class="password" name="password" type="password" placeholder="Password" pattern=".{6,15}" required title="Password must be 6 to 10 characters long"></li>
+                        <li><input class="email" name="email" type="email" placeholder="Email" maxlength="25" required></li>
+                        <div class="one-line">
+                            <div class="one-line-1">
+                                <input class="mobile" name="mobile" type="tel" placeholder="Mobile" maxlength="10" required>
+                            </div>
+                            <div class="one-line-2">
+                                <input class="otp" name="otp" type="text" placeholder="OTP" maxlength="10" required></li>
+                            </div>
+                        </div>
+                        
+                        <li><input class="submit-signup" name="submit" type="submit" value="Submit"></li>
+                    </ul>
+                </form>
+                <br>
+                
+            </div>
+            <div class="hr-style">
+                <div class="hr-1">
+                    <hr>
+                </div>
+                <div class="or-dash">
+                    <p>OR</p>
+                </div>
+                <div class="hr-2">
+                    <hr>
+                </div>
+            </div>
+
+            <div class="alternate-login">
+                <div class="alternate-login-text">
+                    <p>Signup with :</p>
+                </div>
+                <div class="logo-1">
+                    <a href="#"><img src="images/brands-and-logotypes.png" alt="google"></a>
+                </div>
+                <div class="logo-2">
+                    <a href="#"><img src="images/facebook.png" alt="facebook"></a>
+                </div>
+                <div class="logo-3">
+                    <a href="#"><img src="images/instagram.png" alt="instagram"></a>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+
+    
+</body>
+</html>

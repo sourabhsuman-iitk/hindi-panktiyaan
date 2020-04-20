@@ -1,0 +1,400 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Noto Sans', sans-serif;
+    background: url("images/background image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:auto;
+} 
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+header{
+    background: #323C3C;
+}
+.header-class{
+    display:flex;
+    width: 100%;
+    margin: auto auto;
+    height: 8vh;
+    align-items: center;
+    background:#323C3C ;
+    z-index: 100;
+}
+.nav-links{
+    display: flex;
+}
+.logo-container{
+    margin-left: 4.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.logo-container p{
+    font-size: 1.2rem;
+    font-weight:500;
+    color:#edf0f1 ;
+}
+.logo{
+    margin: auto 5px;
+}
+nav{
+    flex: 1;
+}
+.nav-links{
+    justify-content: flex-end;
+    list-style: none;
+    margin: auto 40px;
+}
+.nav-link{
+    color: #edf0f1;
+    font-size: 16px;
+    margin: auto 20px;
+    padding: 0 30px;
+    text-decoration: none;
+}
+
+.nav-toggle {
+    display: none;
+}
+nav a:hover { 
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.neumorphism {
+    margin-top: 3.5rem;
+    height: auto;
+    width: 62rem;
+    background: #E5E7EB;
+    border-radius: 12px;
+    box-shadow: -9px -9px 11px #ffffff73, 10px 10px 11px rgba(94, 104, 121, 0.288);
+}
+.link-remove {
+    text-decoration: none;
+    color: #323C3C; 
+    opacity: 0.9;
+}
+.heading {
+    margin: 2rem 0 8px 29px;
+    font-size: 0.92rem;
+    color: #323C3C; 
+    font-weight: 600;
+    opacity: 0.9;
+}
+.content {
+    background: #E5E7EB;
+    border-radius :8px;
+    box-shadow:inset -10px -10px 8px #ffffff73,inset 10px 10px 8px rgba(94, 104, 121, 0.288);
+    height: 75%;
+ 
+    margin: 0px 2.8% 0px 2.8%;
+    padding: 20px;
+    
+}
+.text {
+    color: #323C3C;
+    font-size: 1.1rem;
+}
+
+.back-button {
+    width: 70px;
+    margin: 15px 0px 30px 2.8%;
+    padding: 5px 0% 5px 0%;
+    border-radius: 5px;
+    border: 0.5px solid rgba(112, 112, 112, 0.5); 
+    background:#717274;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight:600 ;
+    letter-spacing: 0.7px;
+    color: white; 
+    outline:none;
+    cursor: pointer;
+}
+.approve-button {
+    width: 75px;
+    margin: 15px 0px 30px 20px;
+    padding: 5px 0% 5px 0%;
+    border-radius: 5px;
+    border: 0.5px solid #7FBD92; 
+    background:#7FBD92;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight:600 ;
+    letter-spacing: 0.7px;
+    color: white; 
+    outline:none;
+    cursor: pointer;
+}
+.decline-button {
+    width: 70px;
+    margin: 15px 0px 30px 0px;
+    padding: 5px 0% 5px 0%;
+    border-radius: 5px;
+    border: 0.5px solid #C57D7F; 
+    background:#C57D7F;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight:600 ;
+    letter-spacing: 0.7px;
+    color: white; 
+    outline:none;
+    cursor: pointer;
+}
+.delete-button {
+    
+    width: 70px;
+    margin: 15px 0 30px 0;
+    padding: 5px 0% 5px 0%;
+    border-radius: 5px;
+    border: 0.5px solid rgba(112, 112, 112, 0.5); 
+    background:#717274;
+    opacity: 0.87;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight:600 ;
+    letter-spacing: 0.7px;
+    color: white; 
+    outline:none;
+    cursor: pointer;
+}
+.end-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.button-2 {
+    
+    margin-top: -71.5px;
+    margin-right: 2.8%;
+}
+.button-3 {
+    
+    margin-top: -71.5px;
+    margin-right: 2.8%;
+}
+.button-4 {
+    
+    margin-top: -71.5px;
+    margin-right: 2.8%;
+}
+
+.back-to-dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    color: #2E87B9;
+    margin:20px auto 15px auto;
+    background: #E5E7EB;
+    border-radius: 12px;
+    width:270px;
+    padding:12px;
+    box-shadow: -9px -9px 11px #ffffff73, 10px 10px 11px rgba(94, 104, 121, 0.288);
+}
+.back-to-dashboard a {
+    text-decoration: none;
+    color : #2E87B9;
+    text-shadow: 1px 1px 2px rgba(112, 112, 112, 0.5);
+}
+
+
+@media screen and (max-width: 1024px) {
+    .neumorphism {
+        margin-right: 10px;
+        margin-left: 10px;
+        position: relative;
+        top: 4.2rem;
+    }
+  
+    .header-class {
+        background: #323C3C;
+        text-align: center;
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+        
+    }
+    .logo-container {
+        justify-content: center;
+
+    } 
+    .signup {
+        border-radius: 30px;
+        text-align: center;
+        background-image: none;
+        padding: 7px 16px;
+    }
+    .nav-links {
+        flex-direction: column;
+    }
+    .nav-link {
+        margin:30px 0;
+        padding: 0;
+    }
+    .nav-toggle {
+        display: none;
+    }
+
+    .nav-toggle-label {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-right: 2.5em;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .nav-toggle-label span,
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after {
+        display: block;
+        background: white;
+        height: 1.5px;
+        width: 2em;
+        border-radius: 2px;
+        position: relative;
+        
+    }
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after {
+        content: '';
+        position: absolute;
+       
+    }
+    .nav-toggle-label span::before {
+        bottom: 7px;
+        
+    }
+    .nav-toggle-label span::after {
+        top: 7px;
+       
+    }
+
+    nav {
+        position: absolute;
+        text-align: right;
+        top: 100%;
+        right: 0;
+        background:#323C3C;
+        width: 100%;
+        transform: scale(1 ,0);
+        transform-origin: top;
+        transition: transform 400ms ease-in-out;
+    }
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+    }
+    nav li {
+        margin-bottom: 1em;
+        margin-left: 1em;
+    }
+    nav a {
+        color:gray;
+        text-decoration: none;
+        font-size: 1.2rem;
+        opacity: 0;
+        transition: opacity 150ms ease-in-out ;
+    }
+    nav a:hover { 
+        color:white;
+
+    }
+    .nav-toggle:checked ~ nav {
+        transform: scale(1,1);
+
+    }
+
+    .nav-toggle:checked ~ nav a {
+        opacity: 1;
+        transition: opacity 250ms ease-in-out 250ms;
+    }
+    .text {
+        font-size: 0.95rem;
+    }
+    .back-to-dashboard {
+        margin-top: 70px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .text {
+        font-size: 0.95rem;
+    }
+    .container {
+        padding: 20px;
+    }
+    .neumorphism {
+        margin-top:0.5rem ;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .heading {
+        margin-top: 1.5rem;
+    }
+    .end-buttons {
+        flex-direction: column;
+    }
+    .back-button {
+        width: 70px;
+        margin-left: 2.8%;
+    }
+    
+    .button-2 {
+    
+        margin: -71.5px 2.8% 0 auto;
+        
+    }
+    .approve-button {
+        margin-bottom: 0;
+    }
+    .decline-button {
+        width:75px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .button-3 {
+        
+        margin: 12px 2.8% 0 auto;
+    }
+    .delete-button {
+        width:70px;
+        margin-top: 10px;
+        margin-left: 2.8%;
+    }
+    .button-4 {
+       
+        margin-top: -36px;
+        margin-right: 2.8%;
+    }
+    .back-to-dashboard {
+        font-size: 1.2rem;
+        width: 220px;
+        padding:10px;
+    }
+}
