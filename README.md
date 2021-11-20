@@ -1,2 +1,3 @@
 # hindi-panktiyaan
-Where lies all the frontend !
+- Frontend for hindi panktiyaan 
+- Visit for pure html css :)
